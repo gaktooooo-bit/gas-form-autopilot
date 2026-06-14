@@ -1,0 +1,15 @@
+# clasp（ローカル開発ツール）の認証・設定ファイル。絶対に公開しない
+.clasp.json
+.clasprc.json
+*.clasp.json
+
+# 機密情報を含めない（このプロジェクトは Script Properties で管理する方針）
+.env
+*.local
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
